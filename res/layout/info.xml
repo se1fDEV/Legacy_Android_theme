@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FF000000">
+
+	<ImageView android:id="@+id/logo" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/logo"
+		android:layout_gravity="center_horizontal" android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip" />
+
+	<RelativeLayout android:layout_weight="1"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:layout_centerInParent="true"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="5dip" android:layout_marginBottom="5dip"
+			android:textColor="#FFFFFFFF" android:textSize="14dip"
+			android:textStyle="bold" android:paddingLeft="20dip"
+			android:paddingRight="20dip" android:text="@string/welcome_message" />
+	</RelativeLayout>
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:clickable="true" android:layout_width="fill_parent" android:focusable="true" android:id="@+id/email" android:text="Choose Wallpaper" android:textStyle="bold" android:textSize="16dip" android:gravity="center" android:layout_weight="1" android:background="@drawable/button_background" android:layout_height="wrap_content" android:textColor="#FFFFFFFF"></TextView>
+		<TextView android:layout_width="fill_parent" android:layout_marginBottom="5px" android:id="@+id/instructions" android:text="How to use this theme" android:textStyle="bold" android:textSize="16dip" android:gravity="center" android:background="@drawable/button_background" android:layout_marginTop="5px" android:layout_height="wrap_content" android:textColor="#FFFFFFFF"></TextView>
+
+		<LinearLayout android:layout_marginTop="5px"
+			android:layout_marginBottom="5px" android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<TextView android:id="@+id/gol" android:layout_weight="1" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textSize="16dip"
+				android:textStyle="bold" android:textColor="#FFFFFFFF"
+				android:gravity="center" android:background="@drawable/button_background" android:text="Go launcher EX"/>
+			<TextView android:layout_width="fill_parent" android:text="ADW Launcher" android:textStyle="bold" android:textSize="16dip" android:gravity="center" android:layout_weight="1" android:background="@drawable/button_background" android:layout_height="wrap_content" android:textColor="#FFFFFFFF" android:id="@+id/adw"></TextView>
+			<TextView android:layout_width="fill_parent" android:text="Crazy Home Lite" android:textStyle="bold" android:textSize="16dip" android:gravity="center" android:layout_weight="1" android:background="@drawable/button_background" android:layout_height="wrap_content" android:textColor="#FFFFFFFF" android:id="@+id/crazyhomelite"></TextView>
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="5px"
+		    android:layout_marginTop="5px"
+		    android:orientation="horizontal" >
+
+		    <TextView
+		        android:id="@+id/search_crazythemes"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:background="@drawable/button_background"
+		        android:gravity="center"
+		        android:text="More our Themes"
+		        android:textColor="#FFFFFFFF"
+		        android:textSize="16dip"
+		        android:textStyle="bold" />
+
+		    <TextView
+		        android:id="@+id/Donate"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:background="@drawable/button_background"
+		        android:gravity="center"
+		        android:text="Please Donate"
+		        android:textColor="#FFFFFFFF"
+		        android:textSize="16dip"
+		        android:textStyle="bold" />
+		</LinearLayout>
+
+	</LinearLayout>
+</LinearLayout>
+
+

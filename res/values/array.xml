@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<resources>
+	<string-array name="wallpaperlist">
+		<item>wallpaper</item>
+		<item>wallpaper_2</item>
+		<item>wallpaper_3</item>
+		<item>wallpaper_4</item>
+		<item>wallpaper_5</item>
+		
+	</string-array>
+
+
+	<string-array name="dock_backgroundlist">
+		<item>dock</item>
+	</string-array>
+</resources>

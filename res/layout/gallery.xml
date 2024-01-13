@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:droidfu="http://github.com/droidfu/schema"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<Gallery xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/examplegallery" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+	<TextView
+	    android:id="@+id/textView1"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="Please click on the image below to set Wallpaper" android:layout_width="wrap_content">
+</TextView>
+
+	<ImageView android:layout_height="wrap_content" android:id="@+id/ImageView01"
+		android:layout_width="wrap_content"></ImageView>
+
+	<com.github.droidfu.widgets.WebImageView
+	    android:id="@+id/webimage"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical|center_horizontal|fill"
+	    droidfu:autoLoad="false"
+	    >
+	    
+
+	</com.github.droidfu.widgets.WebImageView>
+	    
+</LinearLayout>

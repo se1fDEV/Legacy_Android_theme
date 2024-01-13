@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Theme Beautiful Nature</string>
+	<string name="instructions">You can change the Wallpapers in this application by selecting “Choose Wallpaper”.\n\nThe first five Wallpapers are stored in the application. Everyone else will be downloaded from the Internet and stored in a folder (wallpaper _duomob).\n\nThis theme is compatible with Launchers: \nADW Launcher 		\nGo Launcher EX 		\nCrazy Home		\nLive Home		\nOpen Home		\nOpen Home 6		\naHome		\n91 Panda Home		\n91 Panda Home 2		\n		\nIf using ADW.Launcher, once it is installed and running, press your		\nMenu Key -> More -> ADWSettings -> Themes Preferences		\n		\nIf using Crazy Home, once it is installed and running, press your		\nMenu Key -> Crazy Menu -> Appearance -> Set Theme\n\nFor more detail please visit: www.duomob.com</string>
+	<string name="email">duomobsoft.com@gmail.com</string>
+	<string name="welcome_message">Theme Beautiful Nature by duomob.\nIf you like, please make a donation.\n\nThank you for download!</string>
+
+	
+
+</resources>
