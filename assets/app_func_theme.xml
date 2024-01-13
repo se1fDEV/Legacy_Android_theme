@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Theme version="1">
+		<Foldericon bottom="appfunc_folderback" top_open="appfunc_folder_open" top_closed="appfunc_folder_close_up">
+		<!-- <Bottom></Bottom>
+		<Top_open></Top_open>
+		<Top_closed></Top_closed>
+		-->
+	</Foldericon>
+	<Folder bg_frame_image="folderopenback" bg_frame_way_of_drawing="1" editbox="appfunc_rename" up_button="folderclose" up_button_selected="folder_close_light" line_enabled="1" folder_open_bg_color="#66000000" bg_frame_image_bottom_heigth="34" edittext_color="#FF333300">
+		<!-- <Bg_frame way_of_drawing=""></Bg_frame>
+		<Editbox way_of_drawing=""></Editbox>
+		<Up></Up>
+		-->
+	</Folder>
+	<AllTabs bg_v_image="tabbackground" bg_h_image="none" bg_way_of_drawing="1">
+		<!--<Bg_v way_of_drawing=""></Bg_v>
+		<Bg_h way_of_drawing=""></Bg_h>
+		-->
+	</AllTabs>
+	
+	
+</Theme>
